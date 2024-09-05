@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            overflow-x: hidden;
+        }
+
+        .header {
+            background-color: rgb(228, 213, 213);
+            padding: 20px;
+        }
+        .header nav {
+            display: inline-block;
+            color: black;
+            font-size: larger;
+            font-style: oblique;
+        }
+        .header ul {
+            display: inline-block;
+            list-style-type: none;
+            float: right;
+        }
+        .header ul li {
+            display: inline-block;
+            padding: 20px;
+            color: black;
+            font-size: larger;
+            font-style: italic;
+        }
+
+        .maincont {
+            padding: 20px;
+        }
+        .search {
+            width: 50%;
+            display: inline-block;
+            vertical-align: top;
+        }
+        .search h2 {
+            font-size: x-large;
+            padding: 10px 0px 5px 10px;
+            text-align: left;
+            font-style: normal;
+        }
+
+        .tourpic {
+            width: 45%;
+            display: inline-block;
+            vertical-align: top;
+            padding-left: 20px;
+        }
+        .tourpic img {
+            width: 100%;
+            height: 400px;
+        }
+        .search select {
+            width: 400px;
+            height: 35px;
+            margin-top: 40px;
+            margin-left: 5px;
+            border-radius: 10px;
+        }
+        .btn {
+            margin-top: 30px;
+            margin-left: 5px;
+        }
+        .btn button {
+            padding: 10px 50px 10px 50px;
+            font-size: medium;
+            background-color: rgb(175, 48, 130);
+            font-style: italic;
+            color: aliceblue;
+            border-radius: 10px;
+        }
+
+        .part2 {
+            background-color: rgb(228, 213, 213);
+            padding: 20px;
+            text-align: center;
+        }
+        .dest h2 {
+            font-style: normal;
+            padding: 10px;
+        }
+        .dest p {
+            font-size: larger;
+            font-style: italic;
+            padding: 10px;
+        }
+
+        .abtimg {
+            text-align: center;
+        }
+        .abtimg figure {
+            display: inline-block;
+            width: 30%;
+            text-align: center;
+            margin: 10px;
+        }
+        .abtimg img {
+            width: 100%;
+            height: 250px;
+        }
+
+        .contact {
+            text-align: center;
+            padding: 40px;
+        }
+        .con h3 {
+            padding-bottom: 15px;
+        }
+        .con p {
+            padding-bottom: 20px;
+            font-style: italic;
+            font-size: medium;
+            color: rgb(165, 42, 116);
+        }
+
+        .contact-form {
+            background-color: rgb(230, 236, 236);
+            text-align: center;
+            padding: 30px;
+        }
+        .contact-form div {
+            display: inline-block;
+            text-align: left;
+            margin: 15px;
+        }
+        .contact-form h4 {
+            padding: 5px;
+            color: rgb(165, 42, 116);
+        }
+        .contact-form input {
+            padding: 10px;
+            width: 250px;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav>EXPLORER</nav>
+        <ul>
+            <li>HOTEL</li>
+            <li>TRANSPORTATION</li>
+            <li>RESTAURANTS</li>
+        </ul>
+    </header>
+
+    <section class="maincont">
+        <div class="search">
+            <h2>Welcome to explorer</h2>
+            <h2>Your Adventure Travel</h2>
+            <h2>Expert in the </h2>
+            <h2>World</h2>
+
+            <select>
+                <option value="#">choose</option>
+                <option value="spain">Spain</option>
+                <option value="Bangkok">Bangkok</option>
+                <option value="Germany">Germany</option>
+                <option value="Greece">UK</option>
+                <option value="jordan">Jordan</option>
+                <option value="Jerusalem">Jerusalem</option>
+            </select>
+            <div class="btn">
+                <button>Explorer</button>
+            </div>
+        </div>
+        <div class="tourpic">
+            <img src="tour.jpg" alt="mainpicture">
+        </div>
+    </section>
+
+    <section class="part2">
+        <div class="dest">
+            <h2>DESTINATIONS</h2>
+            <p>"Discover the World, One Destination at a Time"</p>
+        </div>
+        <div class="abtimg">
+            <figure>
+                <img src="bangkok.jpeg" alt="Bangkok">
+                <figcaption>BANGKOK</figcaption>
+            </figure>
+            <figure>
+                <img src="germany.jpeg" alt="germany">
+                <figcaption>GERMANY</figcaption>
+            </figure>
+            <figure>
+                <img src="greece.jpeg" alt="Greece">
+                <figcaption>GREECE</figcaption>
+            </figure>
+        </div>
+        <div class="abtimg">
+            <figure>
+                <img src="jeru.jpg" alt="Jerusalem">
+                <figcaption>JERUSALEM</figcaption>
+            </figure>
+            <figure>
+                <img src="jordan.jpeg" alt="jordan">
+                <figcaption>JORDAN</figcaption>
+            </figure>
+            <figure>
+                <img src="spain.jpeg" alt="spain">
+                <figcaption>SPAIN</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="con">
+            <h3>CONTACT US</h3>
+            <p>Our team will reach out to you ASAP!</p>
+        </div>
+    </section>
+
+    <section class="contact-form">
+        <div>
+            <h4>Name</h4>
+            <input type="text" placeholder="Enter your name">
+        </div>
+        <div>
+            <h4>Your Home Town</h4>
+            <input type="text" placeholder="Enter your Home Town">
+        </div>
+        <div>
+            <h4>Destination</h4>
+            <input type="text" placeholder="Enter your destination">
+        </div>
+        <div>
+            <h4>Contact</h4>
+            <input type="number" placeholder="Enter your number">
+        </div>
+    </section>
+</body>
+</html>

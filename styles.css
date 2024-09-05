@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.search {
+    margin-top: 10px;
+}
+
+.search select,
+.search button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.main-image {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.main-image img {
+    width: 80%;
+    height: auto;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.card button {
+    background-color: #6a1b9a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.card button:hover {
+    background-color: #5e35b1;
+}
+
+.contact {
+    background-color: #fce4ec;
+    padding: 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: inline-block;
+    text-align: left;
+}
+
+.contact form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact form input,
+.contact form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.contact form button {
+    background-color: #6a1b9a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact form button:hover {
+    background-color: #5e35b1;
+}
